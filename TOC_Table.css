@@ -1,0 +1,122 @@
+/* Ensure the table has enough width and set base text color */
+.toc-table table.dataview {
+    min-width: 500px; /* Minimum width for the table */
+    color: #D8DEE9; /* Base text color (Nord snow storm lightest) */
+}
+  
+/* Style the table header */
+.toc-table table.dataview thead tr, 
+.toc-table table.dataview thead th {
+    padding-bottom: 30px; /* Padding at the bottom of the header cells */
+    border-top: none; /* No border at the top */
+    border-bottom: none !important; /* No border at the bottom */
+    color: #ECEFF4; /* Header text color (Nord snow storm lightest) */
+    font-size: 15px; /* Font size for the header text */
+    text-transform: uppercase; /* Uppercase text transformation for header */
+    letter-spacing: .2rem; /* Spacing between letters */
+}
+  
+/* Style the table body */
+.toc-table table.dataview tbody th, 
+.toc-table table.dataview tbody td {
+    color: #f0e5e5; /* Body text color (Nord snow storm lighter) */
+    padding-bottom: 10px; /* Padding at the bottom of the body cells */
+    padding-top: 10px; /* Padding at the top of the body cells */
+    font-weight: 200; /* Font weight for body text */
+    border: none; /* No border for body cells */
+    transition: .3s all ease; /* Transition effect for all changes */
+}
+
+/* Custom style for the tags column */
+.toc-table table.dataview tbody td:nth-child(4) {
+    font-size: 12px; /* Smaller font size for tags */
+    white-space: normal; /* Allow text to wrap within the cell */
+    word-wrap: break-word; /* Ensure long words break and wrap */
+    max-width: 100px; /* Set a max width for the tags column */
+    line-height: 1.5; /* Increase line height for readability */
+}
+
+/* Custom style for the date column */
+.toc-table table.dataview tbody td:nth-child(3) {
+    color: rgba(216, 222, 233, 0.6); /* More faded color for the date */
+    vertical-align: middle; /* Center the date vertically */
+    white-space: normal; /* Allow text to wrap within the cell */
+    word-wrap: break-word; /* Ensure long words break and wrap */
+    max-width: 50px; /* Set a max width for the date column */
+}
+
+/* Custom style for the file column */
+.toc-table table.dataview tbody td:nth-child(2) {
+    vertical-align: middle; /* Center the filename vertically */
+    white-space: normal; /* Allow text to wrap within the cell */
+}
+
+/* Style for small text within the table body */
+.toc-table table.dataview tbody th small, 
+.toc-table table.dataview tbody td small {
+    color: rgba(216, 222, 233, 0.3); /* Lighter color with transparency */
+}
+
+/* Style for links within the table body */
+.toc-table table.dataview tbody th a, 
+.toc-table table.dataview tbody td a {
+    color: #88C0D0; /* Nord frost color for links */
+}
+
+/* Style for additional text within the table body */
+.toc-table table.dataview tbody th .more, 
+.toc-table table.dataview tbody td .more {
+    color: rgba(216, 222, 233, 0.3); /* Lighter color with transparency */
+    font-size: 20px; /* Larger font size for "more" text */
+    font-weight: 900; /* Bold font weight */
+    text-transform: uppercase; /* Uppercase text transformation */
+    letter-spacing: .2rem; /* Spacing between letters */
+}
+  
+/* Hover effects for rows */
+.toc-table table.dataview tbody tr {
+    transition: .3s all ease; /* Transition effect for all changes */
+}
+  
+.toc-table table.dataview tbody tr:hover td, 
+.toc-table table.dataview tbody tr:focus td {
+    color: #ECEFF4; /* Lighter text color on hover or focus */
+}
+  
+.toc-table table.dataview tbody tr:hover td a, 
+.toc-table table.dataview tbody tr:focus td a {
+    color: rgba(216, 222, 233, 1); /* Lighter color with full opacity on hover or focus */
+}
+  
+.toc-table table.dataview tbody tr:hover td .more, 
+.toc-table table.dataview tbody tr:focus td .more {
+    color: #65c6e1; /* Nord frost color for "more" link on hover or focus */
+}
+  
+/* Box styling */
+.toc-table table.dataview .td-box-wrap {
+    padding: 0; /* No padding for the box wrap */
+}
+  
+.toc-table table.dataview .box {
+    background: #4C566A; /* Background color (Nord lightest dark blue) */
+    border-radius: 4px; /* Rounded corners */
+    margin-top: 15px; /* Margin at the top */
+    margin-bottom: 15px; /* Margin at the bottom */
+}
+  
+.toc-table table.dataview .box td, 
+.toc-table table.dataview .box th {
+    border: none !important; /* No border for box cells */
+}
+  
+/* Hide the "Hidden Identifier" column */
+.toc-table table.dataview thead th:nth-child(5), 
+.toc-table table.dataview tbody td:nth-child(5) {
+    display: none; /* Hide the 5th column */
+}
+
+/* Style for alternating row colors with increased specificity */
+.toc-table table.dataview tbody tr.type-0 {
+    background-color: rgba(216, 222, 233, 0.15); /* Light gray for type-0 */
+}
