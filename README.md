@@ -33,15 +33,15 @@ Done! You can now use the template to generate a dynamic TOC in any note.
 
 ## Usage
 
-1. **Open the TOC Note**:
-   - Navigate to the note where you pasted the `dataviewjs` script.
+1. Add properties to the notes you want to be included in the TOC:
+   - **Type**: The type of the note (e.g., `Note`, `Task`, `Project`).
+   - **Tags**: Any tags you want to display in the TOC.
 
-2. **Refresh the Note**:
-   - Refresh the note to generate the dynamic TOC. The table will list all files in the current folder and its subfolders, categorized by type.
+2. Create a new note using the template:
+   - Use the `Insert Template` button in the editor or the command palette to create a new note using the template.
+   - The TOC will be generated automatically based on the notes in the current folder and its subfolders.
 
-3. **View and Navigate**:
-   - Use the generated TOC to view and navigate through your files. The table includes links to each file, creation dates, and tags.
-
+3. Well, that's it! You now have a dynamic TOC that you can use to navigate your notes more efficiently. Enjoy!
 ## Customization
 
    - Customize the CSS in the [TOC_Table.css] file to change the appearance of the TOC table.
