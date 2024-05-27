@@ -44,8 +44,8 @@ Done! You can now use the template to generate a dynamic TOC in any note.
 3. Well, that's it! You now have a dynamic TOC that you can use to navigate your notes more efficiently. Enjoy!
 ## Customization
 
-   - Customize the CSS in the (TOC_Table.css)[./TOC_Table.css]file to change the appearance of the TOC table.
-   - Modify the `dataviewjs` script in the (Template.md)[./Template.md] file to adjust the table columns, sorting, and grouping. (Remeber to update existing tables for changes to take effect)
+   - Customize the CSS in the [TOC_Table.css](./TOC_Table.css)file to change the appearance of the TOC table.
+   - Modify the `dataviewjs` script in the [Template.md](./Template.md) file to adjust the table columns, sorting, and grouping. (Remeber to update existing tables for changes to take effect)
 
 
 ![alt text](Attachements/Table_Example.png)
